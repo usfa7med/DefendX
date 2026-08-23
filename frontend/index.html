@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DefendX | Firewall Log Analyzer & Threat Detection</title>
+    <meta name="description" content="Analyze firewall logs, detect cyber threats in real time, identify suspicious IPs, discover attack patterns, and strengthen your network security with DefendX." />
+    <meta name="keywords" content="firewall log analyzer, firewall monitoring, cybersecurity, threat detection, intrusion detection, network security, firewall logs, security logs, malicious IP detection, attack detection, SIEM, security analytics, log analysis, cyber defense, DefendX" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Youssef Ahmed Abdelfatah" />
+    <meta name="creator" content="Youssef Ahmed Abdelfatah" />
+    <meta name="publisher" content="Youssef Ahmed Abdelfatah" />
+    <meta name="copyright" content="Youssef Ahmed Abdelfatah" />
+    <meta name="application-name" content="DefendX" />
+    <meta name="theme-color" content="#4edea3" />
+
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="canonical" href="https://defendx.usfahmed.dev/" />
+
+    <meta property="og:title" content="DefendX | Firewall Log Analyzer & Threat Detection" />
+    <meta property="og:description" content="Upload firewall logs, detect attacks instantly, analyze malicious activity, and visualize security threats in real time." />
+    <meta property="og:image" content="https://defendx.usfahmed.dev/og-image.png" />
+    <meta property="og:url" content="https://defendx.usfahmed.dev/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DefendX" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DefendX | Firewall Log Analyzer" />
+    <meta name="twitter:description" content="Firewall log analysis with threat detection, attack insights, and security analytics." />
+    <meta name="twitter:image" content="https://defendx.usfahmed.dev/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="DefendX" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+    <style>
+      @font-face {
+        font-family: 'Cabinet Grotesk';
+        src: url('/fonts/CabinetGrotesk-Bold.woff2') format('woff2');
+        font-weight: 800;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Satoshi';
+        src: url('/fonts/Satoshi-Light.woff2') format('woff2');
+        font-weight: 300;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Satoshi';
+        src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Satoshi';
+        src: url('/fonts/Satoshi-Medium.woff2') format('woff2');
+        font-weight: 500;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Satoshi';
+        src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Satoshi';
+        src: url('/fonts/Satoshi-Black.woff2') format('woff2');
+        font-weight: 900;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('/fonts/JetBrainsMono-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('/fonts/JetBrainsMono-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('/fonts/JetBrainsMono-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-display: block;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('/fonts/JetBrainsMono-Bold.ttf') format('truetype');
+        font-weight: 700;
+        font-display: block;
+        font-style: normal;
+      }
+    </style>
+
+    <script>
+      document.documentElement.classList.add('dark');
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "DefendX",
+      "url": "https://defendx.usfahmed.dev",
+      "description": "Firewall log analyzer for threat detection, attack investigation, and network security monitoring.",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Youssef Ahmed Abdelfatah"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DefendX",
+      "url": "https://defendx.usfahmed.dev",
+      "logo": "https://defendx.usfahmed.dev/logo.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Youssef Ahmed Abdelfatah",
+        "sameAs": [
+          "https://www.linkedin.com/in/usfahmed/",
+          "https://github.com/usfa7med"
+        ]
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Youssef Ahmed Abdelfatah",
+      "url": "https://usfahmed.dev",
+      "sameAs": [
+        "https://www.linkedin.com/in/usfahmed/",
+        "https://github.com/usfa7med"
+      ],
+      "jobTitle": "Software Engineer & Cybersecurity Researcher",
+      "knowsAbout": [
+        "Cybersecurity",
+        "Firewall Security",
+        "Network Security",
+        "Threat Detection",
+        "Software Engineering"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "DefendX"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DefendX",
+      "url": "https://defendx.usfahmed.dev",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DefendX"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://defendx.usfahmed.dev/"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
